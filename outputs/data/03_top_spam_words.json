@@ -1,0 +1,64 @@
+{
+  "top_spam_words": [
+    {
+      "word": "claim",
+      "spam_push": 5.668280334659045
+    },
+    {
+      "word": "prize",
+      "spam_push": 5.433440743581644
+    },
+    {
+      "word": "150p",
+      "spam_push": 5.125956043833684
+    },
+    {
+      "word": "18",
+      "spam_push": 4.877494684535184
+    },
+    {
+      "word": "tone",
+      "spam_push": 4.877494684535184
+    },
+    {
+      "word": "guaranteed",
+      "spam_push": 4.851519198131923
+    },
+    {
+      "word": "500",
+      "spam_push": 4.824850951049761
+    },
+    {
+      "word": "cs",
+      "spam_push": 4.797451976861647
+    },
+    {
+      "word": "awarded",
+      "spam_push": 4.647920242890684
+    },
+    {
+      "word": "1000",
+      "spam_push": 4.546137548580742
+    },
+    {
+      "word": "landline",
+      "spam_push": 4.472029576427019
+    },
+    {
+      "word": "uk",
+      "spam_push": 4.472029576427019
+    },
+    {
+      "word": "www",
+      "spam_push": 4.459126171591112
+    },
+    {
+      "word": "150ppm",
+      "spam_push": 4.391986868753483
+    },
+    {
+      "word": "ringtone",
+      "spam_push": 4.349427254334687
+    }
+  ]
+}

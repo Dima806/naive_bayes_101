@@ -1,0 +1,20 @@
+{
+  "vocabulary": [
+    "free",
+    "money",
+    "friend",
+    "meeting"
+  ],
+  "spam_counts": {
+    "free": 7.0,
+    "money": 3.0,
+    "friend": 1.0,
+    "meeting": 0.0
+  },
+  "ham_counts": {
+    "free": 1.0,
+    "money": 0.0,
+    "friend": 3.0,
+    "meeting": 5.0
+  }
+}

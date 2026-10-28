@@ -1,0 +1,12 @@
+{
+  "n_features": 500,
+  "naive_bayes": {
+    "accuracy": 1.0,
+    "train_seconds": 0.009780346000297868
+  },
+  "logistic_regression": {
+    "accuracy": 1.0,
+    "train_seconds": 0.11811038699988785
+  },
+  "nb_speedup": 12.076299447513483
+}

@@ -1,0 +1,21 @@
+{
+  "results": [
+    {
+      "model": "Multinomial NB",
+      "accuracy": 0.9856527977044476,
+      "f1": 0.9688373236760334,
+      "train_seconds": 0.07034808599973985,
+      "mean_confidence": 0.9884675753688549,
+      "log_loss": 0.07939919813862673
+    },
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.9827833572453372,
+      "f1": 0.9609829825347067,
+      "train_seconds": 0.31617189500002496,
+      "mean_confidence": 0.980517958396233,
+      "log_loss": 0.05179709070721199
+    }
+  ],
+  "nb_train_speedup_vs_logreg": 4.494392285259817
+}

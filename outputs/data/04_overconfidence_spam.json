@@ -1,0 +1,20 @@
+{
+  "test_accuracy": 0.9856527977044476,
+  "mean_confidence": 0.9884675753688549,
+  "fraction_above_99pct": 0.8794835007173601,
+  "log_loss": 0.07939919813862673,
+  "most_confident_correct_spam": [
+    {
+      "message": "URGENT!: Your Mobile No. was awarded a \u00c2\u00a32,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9755 BOX95QU",
+      "p_spam": 1.0
+    },
+    {
+      "message": "This is the 2nd time we have tried 2 contact u. U have won the \u00c2\u00a3750 Pound prize. 2 claim is easy, call 087187272008 NOW1! Only 10p per minute. BT-national-rate.",
+      "p_spam": 1.0
+    },
+    {
+      "message": "Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed 08701417012150p per logo/pic ",
+      "p_spam": 1.0
+    }
+  ]
+}

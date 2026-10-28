@@ -1,0 +1,28 @@
+{
+  "feature": "2D Gaussian synthetic",
+  "class_means": [
+    [
+      -0.9819770362793036,
+      -0.9991017385363298
+    ],
+    [
+      0.9725001492017934,
+      0.9490013442828211
+    ]
+  ],
+  "class_variances": [
+    [
+      0.9970765370246389,
+      0.9777738532286192
+    ],
+    [
+      0.9961676455406455,
+      0.9439594939154726
+    ]
+  ],
+  "class_priors": [
+    0.4475,
+    0.5525
+  ],
+  "note": "These numbers are the whole model. Training only estimated them."
+}

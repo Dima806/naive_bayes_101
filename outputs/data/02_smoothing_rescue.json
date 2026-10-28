@@ -1,0 +1,12 @@
+{
+  "unseen_word_log_prob_unsmoothed": -Infinity,
+  "joint_log_likelihood_unsmoothed": [
+    -Infinity,
+    -Infinity
+  ],
+  "class0_annihilated": true,
+  "smoothed_posterior": [
+    0.49999999999999994,
+    0.49999999999999994
+  ]
+}

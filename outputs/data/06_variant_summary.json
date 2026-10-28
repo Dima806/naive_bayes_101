@@ -1,0 +1,19 @@
+{
+  "variants": [
+    {
+      "variant": "GaussianNB",
+      "data": "continuous tabular",
+      "accuracy": 0.9415204678362573
+    },
+    {
+      "variant": "MultinomialNB",
+      "data": "word/count features",
+      "accuracy": 0.97
+    },
+    {
+      "variant": "BernoulliNB",
+      "data": "binary presence/absence",
+      "accuracy": 0.9741666666666666
+    }
+  ]
+}

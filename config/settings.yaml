@@ -1,0 +1,28 @@
+# Single source of truth for seeds, smoothing, feature types and sample sizes.
+# Loaded by src/config.py via pydantic-settings. Change values here, not in code.
+
+seed: 42
+test_size: 0.25
+
+smoothing:
+  # Laplace / additive smoothing strength. alpha=1.0 is classic Laplace.
+  # alpha=0.0 disables smoothing and lets a single unseen feature annihilate a prediction.
+  alpha: 1.0
+
+text:
+  cache_dir: data/text
+  max_features: 2000
+  n_samples: 1200          # size of the frozen synthetic spam corpus fallback
+
+tabular:
+  n_samples: 1000
+
+synthetic:
+  n_samples: 2000
+  n_features: 20
+  class_sep: 1.5
+  correlation: 0.0
+  # Knob 1 — training-set sizes for the data-efficiency crossover.
+  sample_sizes: [20, 40, 80, 160, 320, 640, 1280]
+  # Knob 2 — feature correlation strengths for the overconfidence curve.
+  correlations: [0.0, 0.3, 0.6, 0.9, 0.99]

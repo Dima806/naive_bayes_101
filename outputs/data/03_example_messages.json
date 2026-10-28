@@ -1,0 +1,24 @@
+{
+  "examples": [
+    {
+      "message": "WINNER!! You have won a free prize, claim your cash now by calling this number",
+      "p_spam": 0.9999999999058531,
+      "verdict": "SPAM"
+    },
+    {
+      "message": "Hey are we still on for lunch tomorrow?",
+      "p_spam": 7.706851252291518e-05,
+      "verdict": "ham"
+    },
+    {
+      "message": "URGENT! Your account has been selected for a guaranteed loan, reply YES",
+      "p_spam": 0.999999761102032,
+      "verdict": "SPAM"
+    },
+    {
+      "message": "Can you send me the report before the meeting",
+      "p_spam": 4.2885608231720686e-05,
+      "verdict": "ham"
+    }
+  ]
+}

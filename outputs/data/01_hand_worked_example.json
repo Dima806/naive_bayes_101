@@ -1,0 +1,41 @@
+{
+  "vocabulary": [
+    "free",
+    "money",
+    "friend"
+  ],
+  "class_counts": [
+    [
+      6.0,
+      5.0,
+      1.0
+    ],
+    [
+      1.0,
+      1.0,
+      8.0
+    ]
+  ],
+  "prior": {
+    "spam": 0.5,
+    "ham": 0.5
+  },
+  "likelihood": {
+    "spam": {
+      "free": 0.4666666666666667,
+      "money": 0.4,
+      "friend": 0.13333333333333333
+    },
+    "ham": {
+      "free": 0.15384615384615385,
+      "money": 0.15384615384615385,
+      "friend": 0.6923076923076923
+    }
+  },
+  "message": "free money",
+  "posterior": {
+    "spam": 0.8874718679669917,
+    "ham": 0.11252813203300827
+  },
+  "decision": "spam"
+}
